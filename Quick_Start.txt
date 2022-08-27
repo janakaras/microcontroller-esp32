@@ -1,0 +1,19 @@
+1. Open two ESP-IDFs 
+2. cd to C:\Users\JohnDoe\Documents\A_Uni\Master\2_Semester\Embedded_Systems\Git\lab-project-template in both
+3. Execute idf.py -B build/fw-b/ -DBZ_BUILD_TARGET="fw-b" -p COM5 flash monitor in one of them
+4. Execute idf.py -B build/fw-a/ -DBZ_BUILD_TARGET="fw-a" -p COM3 flash monitor in the other 
+5. Put a finger on the temp sensor -> See how the frequency increases
+
+
+
+
+
+
+
+- Show function
+- Explain LED 
+- SPI: 
+	* Choice of Master
+	* Both ways
+	* Sending a String
+- Requirements C:\Users\JohnDoe\Documents\A_Uni\Master\2_Semester\Embedded_Systems\RequirementElicitation.ods
